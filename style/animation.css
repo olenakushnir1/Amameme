@@ -1,0 +1,120 @@
+[data-aos=fade-down-left] {
+    transform: translate3d(100px, -50px, 0);
+}
+
+[data-aos=fade-up-left] {
+    transform: translate3d(100px, 50px, 0);
+}
+
+@keyframes wave {
+    0% {
+        background-position-y: 0;
+    }
+
+    50% {
+        background-position-y: 120%;
+    }
+
+    100% {
+        background-position-y: 0;
+    }
+}
+
+.button2 {
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 span {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.button2:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.button2:hover > span {
+    opacity: 0;
+    -webkit-transform: translate(0px, -40px);
+    transform: translate(0px, -40px);
+}
+
+.button2::after {
+    content: attr(data-text);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transform: translate(0, 30%);
+    transform: translate(0, 30%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.button2:hover::after {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 9px);
+}
+
+.watchBtn {
+    transition: all 0.3s;
+}
+
+.watchBtn:hover {
+    box-shadow: 0 0.2vw 0.6vw rgba(243, 111, 33, 0.3);
+}
+
+.pinkBtn:active {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+@media (max-width: 1920px) {
+    .pinkBtn:active {
+        box-shadow: 0.53vw 0.2 0.53vw rgba(0, 0, 0, 0.5) !important;
+    }
+}
+
+@media (max-width: 1440px) {
+    .button2:hover::after {
+        opacity: 1;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 8px);
+    }
+}
+
+@media (max-width: 1080px) {
+    .button2:hover::after {
+        opacity: 0;
+    }
+
+    .button2:hover {
+        background-color: transparent;
+    }
+
+    .button2:hover > span {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0);
+        transform: translate(0px, 0);
+    }
+}

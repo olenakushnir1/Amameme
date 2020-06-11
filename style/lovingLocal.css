@@ -1,0 +1,1297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+header .menu .orangeHover {
+    color: #F36F21;
+    border-bottom: 2px solid #F36F21;
+}
+
+header .menu .orangeHover a {
+    color: #F36F21;
+}
+
+.content {
+    max-width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+
+.content .transition {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1D1D1D;
+    color: #F36F21;
+    font-family: FuturaLT_Book;
+    padding: 0 0 28px 125px;
+    font-size: 21px;
+}
+
+.content .transition .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #F36F21;
+    margin: 0 0 6px;
+}
+
+.content .transition .transText {
+    color: #F36F21;
+    font-family: FuturaLT_Book;
+    font-size: 21px;
+    margin: 0 20px 6px;
+    border-bottom: 1px solid transparent;
+}
+
+.content .transition .transText:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #F36F21;
+}
+
+.content .transition .arr {
+    width: 6px;
+    margin: 0 0 6px;
+}
+
+.content .mainPoster {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url(../img/gomora.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 30px 175px;
+}
+
+.content .mainPoster .pinkBtn {
+    font-family: FuturaMedium;
+    font-weight: normal;
+    width: 235px;
+    height: 40px;
+    background-color: #EC008C;
+    border: none;
+    border-radius: 1.7vw;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+}
+
+.content .mainPoster .pinkBtn:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.content .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1D1D1D;
+    padding: 65px 44px 100px 67px;
+}
+
+.content .h3 {
+    font-size: 48px;
+    font-weight: bolder;
+    background-color: #1D1D1D;
+    margin: 0 0 -29px;
+    padding: 0 19px;
+}
+
+.content .tittleBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #F36F21;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #F36F21;
+    margin: 0 0 122px;
+}
+
+.h4 {
+    font-size: 13px;
+    color: white;
+    margin: 0;
+}
+
+.pageContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.pageContent .right {
+    display: flex;
+    flex-direction: column;
+    padding: 0 74px;
+    width: 413px;
+}
+
+.pageContent .right .imgGomora {
+    width: 238px;
+    height: 242px;
+    background-image: url(../img/locImg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pageContent .right .textTittle {
+    font-size: 16px;
+    font-weight: 100;
+    margin: 1vw 0 0;
+    width: 88%;
+}
+
+.pageContent .right .tittle {
+    font-family: FuturaLT_Book;
+    color: white;
+    font-weight: normal;
+    font-size: 21px;
+    margin: 0px 0 17px;
+}
+
+.pageContent .right .tittle span {
+    font-family: FuturaMedium;
+    font-weight: normal;
+    color: #F36F21;
+}
+
+.pageContent .right .teg {
+    width: 206px;
+    height: 198px;
+    background-color: #F36F21;
+    border-radius: 15px;
+    color: #121212;
+    font-size: 21px;
+    font-family: FuturaLT_Bold;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 22px 0 28px 52px;
+}
+
+.pageContent .right .teg .tegText {
+    margin: 0;
+    line-height: 1.5vw;
+}
+
+.pageContent .right .moodBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pageContent .right .moodBox .moodTittleBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pageContent .right .moodBox .moodTittleBox .line {
+    width: 53px;
+    border-bottom: 1px solid #F36F21;
+    margin: 54px 14px 13px 0;
+}
+
+.pageContent .right .moodBox .h3 {
+    font-size: 21px;
+    color: white;
+    font-family: FuturaLT_Book !important;
+    font-weight: normal;
+    padding: 0;
+    margin: 54px 0 18px;
+}
+
+.pageContent .right .moodBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 86%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pageContent .right .moodBlock .categories {
+    border: 1px solid #F36F21;
+    border-radius: 15px;
+    margin: 0 0 18px;
+    width: 96px;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageContent .right .moodBlock .categories p {
+    color: #F36F21;
+    font-size: 13px;
+    font-family: AvenirLTStd-Black;
+    margin: 0;
+}
+
+.pageContent .right .orangeTeg {
+    color: #F36F21;
+    font-size: 18px;
+    margin: 0.8vw 0 0;
+    border-bottom: 1px solid #F36F21;
+}
+
+.pageContent .right .mobileStyle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pageContent .right .app span {
+    font-size: 11px;
+    margin: 0 0 1px 10px;
+    border-bottom: 1px solid white;
+}
+
+.pageContent .left {
+    display: flex;
+    flex-direction: column;
+    width: 57.8%;
+}
+
+.pageContent .left .tittle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pageContent .left .app {
+    font-size: 15px;
+    font-family: AvenirLTStd-Light_2;
+    color: white;
+    font-weight: 100;
+}
+
+.pageContent .left .app span {
+    font-size: 15px;
+    font-family: AEH;
+    color: #4EA7FF;
+    border-bottom: 1px solid #4EA7FF;
+    padding: 0 0 5px;
+    margin: 0 0 0 7px;
+}
+
+.pageContent .left .h1 {
+    font-size: 21px;
+    font-family: FuturaMedium;
+    font-weight: normal;
+    color: #F36F21;
+    margin: 0;
+}
+
+.pageContent .left .h1 span {
+    font-size: 21px;
+    font-family: FuturaLT_Book;
+    font-weight: normal;
+    border-right: 1px solid white;
+    margin: 0 13px 0 0;
+    padding: 0 13px 0 0;
+    color: white;
+}
+
+.pageContent .left .imgTittle {
+    margin: 33px 0;
+}
+
+.pageContent .left .placat {
+    width: 100%;
+    height: 340px;
+    background-position: center;
+    background-image: url(../img/Image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pageContent .left .text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+.pageContent .left .text .txt {
+    margin: 0;
+    font-family: AEH;
+}
+
+.pageContent .left .text .txt span {
+    border-left: 1px solid white;
+    padding: 0 5px 0 13px;
+    font-weight: 100;
+    font-family: AvenirLTStd-Light_2;
+}
+
+.pageContent .left .text .txt span:first-of-type {
+    margin: 0 0 0 8px;
+
+}
+
+.pageContent .left .watchBtn {
+    border: 1px solid #F36F21;
+    border-radius: 24px;
+    color: #F36F21;
+    font-size: 14px;
+    font-family: AvenirLTStd-Book;
+    padding: 10px 52px;
+}
+
+.pageContent .left .text .img {
+    width: 65px;
+    height: 38px;
+    background-position: center;
+    background-image: url(../img/Image13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 20px 0 0;
+}
+
+.pageContent .left .text div:first-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pageContent .left .text div:last-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageContent .left #iconBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 0;
+}
+
+.pageContent .left .face {
+    background-image: url(../img/face.png);
+    margin: 0 14px 0 18px;
+    background-size: 60%;
+}
+
+.pageContent .left .twit {
+    background-image: url(../img/twit.png);
+    margin: 0 14px 0 0;
+    background-size: 61%;
+}
+
+.pageContent .left .whats {
+    background-image: url(../img/whatsUp.png);
+    background-size: 53%;
+}
+
+.pageContent .left .icon {
+    width: 38px;
+    height: 38px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-color: #F36F21;
+}
+
+.pageContent .left .h3 span {
+    border: none;
+    font-size: 21px;
+    font-family: FuturaLT_Book;
+    font-weight: normal;
+    color: white;
+}
+
+.pageContent .left .h3 {
+    font-size: 21px;
+    font-family: FuturaMedium;
+    font-weight: normal;
+    color: #F36F21;
+    margin: 14px 0 29px;
+    padding: 42px 0 0 50px;
+    border-top: 1px solid #F36F21;
+}
+
+/*slider style*/
+.pageContent .left .slider {
+    margin: 0px 0 0 50px;
+}
+
+.owl-carousel {
+    display: none;
+    width: 94%;
+    z-index: 1;
+}
+
+.left .seeAll {
+    color: #F36F21;
+    font-size: 12px;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-family: FuturaPT_Book;
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid #F36F21;
+    padding: 0 2vw 25px;
+}
+
+.left .seeAll:hover {
+    cursor: pointer;
+}
+
+.pageContent .left .h2 {
+    margin: 44px 0 38px 50px;
+    font-size: 21px;
+    font-family: FuturaMedium;
+    font-weight: normal;
+    color: #F36F21;
+}
+
+.item .img {
+    width: 255px;
+    height: 173px;
+    margin: 0 0 12px;
+    overflow: hidden;
+}
+
+.item .img img {
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+}
+
+.item .img img:hover {
+    transform: scale(1.1);
+}
+
+.img {
+    overflow: hidden;
+}
+
+.img .imgGomora {
+    transition: all .5s;
+}
+
+.img .imgGomora:hover {
+    transform: scale(1.1);
+}
+
+.img .placat {
+    transition: all .5s;
+}
+
+.img .placat:hover {
+    transform: scale(1.1);
+}
+
+.item .h4 {
+    margin: 0 0 0 14px;
+}
+
+.mobileApp {
+    display: none;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    width: 2.25vw;
+    height: 2.25vw;
+    top: 28%;
+    right: -2vw;
+    background-image: url(../img/Path49.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: 53% center;
+    position: absolute;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    background-image: url(../img/Path473.png);
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    left: -2.5vw;
+}
+
+.owl-carousel .owl-nav button.owl-next:focus,
+.owl-carousel .owl-nav button.owl-prev:focus {
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-next span,
+.owl-carousel .owl-nav button.owl-prev span {
+    display: none;
+}
+
+.owl-carousel .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 19px;
+}
+
+.mobile {
+    display: none;
+}
+
+.mobileStyle .p {
+    display: none;
+}
+
+
+@media (max-width: 1920px) {
+    .content {
+        max-width: 62vw;
+    }
+
+    .content .transition {
+        padding: 0 0 1.46vw 6.5vw;
+        font-size: 1.1vw;
+    }
+
+    .content .transition .circle {
+        width: 0.8vw;
+        height: 0.8vw;
+        border-radius: 50%;
+        margin: 0 0 0.3vw;
+    }
+
+    .content .transition .transText {
+        font-size: 1.1vw;
+        margin: 0 1.05vw 0.3vw;
+    }
+
+    .content .transition .arr {
+        width: 0.31vw;
+        margin: 0 0 0.3vw;
+    }
+
+    .content .mainPoster {
+        height: 12.5vw;
+        padding: 0 0 1.6vw 9.12vw;
+    }
+
+    .content .mainPoster .pinkBtn {
+        width: 12.25vw;
+        height: 2.1vw;
+        box-shadow: 0.53vw 0.53vw 0.53vw rgba(0, 0, 0, 0.5);
+        font-size: 0.73vw;
+    }
+
+    .content .main {
+        padding: 3.4vw 2.3vw 5.31vw 3.5vw;
+    }
+
+    .content .h3 {
+        font-size: 2.5vw;
+        margin: 0 0 -1.5vw;
+        padding: 0 1vw;
+    }
+
+    .content .tittleBox {
+        width: 100%;
+        margin: 0 0 6.55vw;
+    }
+
+    .h4 {
+        font-size: 0.68vw;
+    }
+
+    .pageContent .right {
+        padding: 0 3.9vw;
+        width: 21.5vw;
+    }
+
+    .pageContent .right .imgGomora {
+        width: 12.4vw;
+        height: 12.6vw;
+    }
+
+    .pageContent .right .textTittle {
+        font-size: 0.84vw;
+        margin: 1vw 0 0;
+        width: 88%;
+    }
+
+    .pageContent .right .tittle {
+        font-size: 1.1vw;
+        margin: 0 0 0.9vw;
+    }
+
+    .pageContent .right .teg {
+        width: 10.73vw;
+        height: 10.3vw;
+        border-radius: 0.8vw;
+        font-size: 1.1vw;
+        padding: 1.15vw 0 1.46vw 2.7vw;
+    }
+
+    .pageContent .right .teg .tegText {
+        line-height: 1.5vw;
+    }
+
+    .pageContent .right .moodBox .moodTittleBox .line {
+        width: 2.8vw;
+        margin: 2.8vw 0.73vw 0.7vw 0;
+    }
+
+    .pageContent .right .moodBox .h3 {
+        font-size: 1.1vw;
+        margin: 2.8vw 0 0.94vw;
+    }
+
+    .pageContent .right .moodBlock .categories {
+        border-radius: 0.8vw;
+        margin: 0 0 0.94vw;
+        width: 5vw;
+        height: 4.4vw;
+    }
+
+    .pageContent .right .moodBlock .categories p {
+        font-size: 0.7vw;
+    }
+
+    .pageContent .right .orangeTeg {
+        font-size: 0.94vw;
+    }
+
+    .pageContent .right .app {
+        margin: 2vw 0 0;
+        font-size: 0.78vw;
+    }
+
+    .pageContent .right .app span {
+        font-size: 0.78vw;
+        margin: 0 0 0.05vw 0.5vw;
+    }
+
+
+    .pageContent .left {
+        width: 57.8%;
+    }
+
+    .pageContent .left .app {
+        font-size: 0.78vw;
+    }
+
+    .pageContent .left .app span {
+        font-size: 0.78vw;
+    }
+
+    .pageContent .left .h1 {
+        font-size: 1.1vw;
+    }
+
+    .pageContent .left .h1 span {
+        font-size: 1.1vw;
+        margin: 0 0.68vw 0 0;
+        padding: 0 0.68vw 0 0;
+    }
+
+    .pageContent .left .placat {
+        height: 17.7vw;
+    }
+
+    .pageContent .left .imgTittle {
+        margin: 1.7vw 0;
+    }
+
+    .pageContent .left .watchBtn {
+        border-radius: 2.1vw;
+        font-size: 0.74vw;
+        line-height: 0.74vw;
+        padding: 0.7vw 2.7vw;
+    }
+
+    .pageContent .left .text {
+        font-size: 0.84vw;
+    }
+
+
+    .pageContent .left .text .txt span {
+        padding: 0 0.27vw;
+    }
+
+    .pageContent .left .text .txt span:first-of-type {
+        margin: 0 0 0 0.42vw;
+    }
+
+    .pageContent .left .text .img {
+        width: 3.39vw;
+        height: 2vw;
+        margin: 0 1.05vw 0 0;
+    }
+
+
+    .pageContent .left .face {
+        margin: 0 0.78vw 0 0.94vw;
+    }
+
+    .pageContent .left .twit {
+        margin: 0 0.78vw 0 0;
+    }
+
+
+    .pageContent .left .icon {
+        width: 2vw;
+        height: 2vw;
+    }
+
+    .pageContent .left .h3 span {
+        font-size: 1.1vw;
+    }
+
+    .pageContent .left .h3 {
+        font-size: 1.1vw;
+        margin: 2.5vw 0 1.5vw;
+        padding-left: 2.6vw;
+    }
+
+    /*slider style*/
+    .pageContent .left .slider {
+        margin: 0 0 0vw 2.6vw;
+    }
+
+    .owl-carousel {
+        width: 95%;
+    }
+
+    .left .seeAll {
+        font-size: 0.63vw;
+        padding: 0 2.4vw 1.3vw;
+    }
+
+    .pageContent .left .h2 {
+        margin: 2.3vw 0 2vw 2.6vw;
+        font-size: 1.1vw;
+    }
+
+    .item .img {
+        width: 13.3vw;
+        height: 9vw;
+        margin: 0 0 0.63vw;
+    }
+
+    .item .h4 {
+        margin: 0 0 0 0.73vw;
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        width: 2.25vw;
+        height: 2.25vw;
+        right: -2vw;
+        background-size: 25%;
+        background-position: 53% center;
+    }
+
+
+    .owl-carousel .owl-nav button.owl-prev {
+        left: -2.6vw;
+    }
+
+
+    .owl-carousel .text {
+        bottom: 1vw;
+    }
+
+}
+
+@media (max-width: 1440px) {
+    .pageContent .right .moodBlock .categories:nth-child(2n+1) {
+        margin: 0 0.84vw 0.94vw 0;
+    }
+}
+
+
+@media (max-width: 1080px) {
+
+    .pageContent .right .moodBox .moodTittleBox,
+    .pageContent .right .moodBlock,
+    .pageContent .right .orangeTeg,
+    .pageContent .right .tittle,
+    .pageContent .left .app,
+    .content .mainPoster {
+        display: none;
+    }
+
+    .mobileStyle .p {
+        display: flex;
+    }
+
+    .content .main {
+        padding: 5.6vw 5.8vw 11.21vw 8.2vw;
+        background-color: transparent;
+    }
+
+    .content {
+        max-width: 100vw;
+    }
+
+    .content .transition {
+        background-color: transparent;
+        padding: 0 0 1.46vw 10.8vw;
+    }
+
+    .content .transition .transText {
+        font-size: 3vw;
+        margin: 0 1.05vw 0.3vw;
+    }
+
+    .content .transition .circle {
+        width: 2vw;
+        height: 2vw;
+        margin: 0 3.6vw 0.3vw 0;
+    }
+
+
+    .pageContent .right .mobileStyle {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .pageContent .right .mobileStyle .p {
+        font-size: 2.6vw;
+        width: 91%;
+    }
+
+    .pageContent .right .teg .tegText {
+        background-color: #F36F21;
+        color: black;
+        width: 14.7vw;
+        height: 5.3vw;
+        border-radius: 3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: FuturaLT_Book;
+    }
+
+    .content .tittleBox {
+        border: none;
+    }
+
+    .pageContent {
+        flex-direction: column;
+    }
+
+
+    .pageContent .right .teg {
+        background-color: transparent;
+        flex-direction: row;
+        color: #F36F21;
+        font-size: 1.8vw;
+        width: 80%;
+        height: auto;
+        padding: 3.15vw 0 0;
+    }
+
+    .pageContent .right .imgGomora {
+        width: 32vw;
+        height: 20.6vw;
+
+        background-image: url(../img/locImg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 3.7vw 0 0;
+    }
+
+    .pageContent .right .textTittle {
+        font-size: 1.5vw;
+        width: 88%;
+    }
+
+    .pageContent .right {
+        flex-direction: row;
+        padding: 0 0 4.2vw;
+        padding: 0 3vw;
+    }
+
+    .pageContent .left .h1 {
+        font-size: 3.9vw;
+        line-height: 7.04vw;
+        margin: 5.4vw 0 3.4vw;
+        padding: 0 3vw;
+    }
+
+    .pageContent .left .h1 span {
+        font-size: 3.9vw;
+        border-right: 0.2vw solid white;
+        margin: 0 1.68vw 0 0;
+    }
+
+    .pageContent .right,
+    .pageContent .left {
+        width: 100%;
+    }
+
+    .pageContent .left .placat {
+        width: 93%;
+        height: 31.4vw;
+        background-position: center;
+        background-image: url(../img/Image1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto 2.2vw;
+    }
+
+    .pageContent .left .imgTittle {
+        margin: 0;
+    }
+
+    .pageContent .left .text .txt {
+        font-size: 2.2vw;
+    }
+
+    .pageContent .left .text {
+        justify-content: space-between;
+        padding: 0 3vw;
+    }
+
+    .pageContent .left .text .img {
+        width: 8.7vw;
+        height: 5vw;
+        background-position: center;
+        background-image: url(../img/Image13.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 2vw 0 0;
+    }
+
+    .pageContent .left .text .txt span {
+        border-left: 1px solid white;
+        padding: 0 1vw;
+    }
+
+    .pageContent .left .h3 span,
+    .pageContent .left .h3 {
+        font-size: 3.5vw;
+        background-color: transparent;
+        padding: 0;
+        margin: 4.5vw 0 3.1vw;
+    }
+
+    .pageContent .left .h2 {
+        margin: 0 0 2vw 1.1vw;
+        font-size: 3.4vw;
+        font-family: Futura_Bold;
+    }
+
+    .pageContent .left .slider {
+        border: none;
+    }
+
+    .content .tittle .line {
+        display: none;
+    }
+
+    .content .tittleBox .h3 {
+        font-size: 4.45vw;
+        background-color: transparent;
+        width: 100%;
+        text-align: left;
+        padding: 0 3vw;
+    }
+
+
+    .pageContent .mobileStyle .h3 {
+        font-size: 4.45vw;
+        font-weight: bolder;
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pageContent .right .mobileApp,
+    .pageContent .right .mobileApp span {
+        display: flex;
+        font-size: 1.8vw;
+        font-family: AvenirLTStd-Light_2;
+        font-weight: 100;
+    }
+
+    .pageContent .right .mobileApp span {
+        display: flex;
+        font-size: 1.8vw;
+        font-family: AEH;
+        color: #4EA7FF;
+        margin: 0 0 0.05vw 1.5vw;
+        border-bottom: 1px solid #4EA7FF;
+    }
+
+    .pageContent .right .mobileApp {
+        margin: 3vw 0 0;
+    }
+
+    .pageContent .left .watchBtn {
+        width: 25.1vw;
+        height: 6vw;
+        color: #F36F21;
+        border: 1px solid #F36F21;
+        border-radius: 3.3vw;
+        font-size: 2.1vw;
+        font-family: AvenirLTStd-Book;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0.1vw 0 0;
+    }
+
+    .pageContent .left .text div:last-of-type {
+        align-items: flex-end;
+    }
+
+    .pageContent .left .icon {
+        width: 5.5vw;
+        height: 5.5vw;
+        margin: 0 2vw 0 0;
+    }
+
+    .pageContent .left .icon:last-of-type {
+        margin: 0;
+    }
+
+    .content .tittle .seeAll {
+        font-size: 2.04vw;
+        margin: 0 0 1.2vw;
+    }
+
+
+
+    .content .tittle {
+        padding: 0 0 2.24vw;
+    }
+
+    .owl-carousel {
+        margin: 0 0 8.7vw 0;
+        width: 100%;
+        height: 22vw;
+    }
+
+    .owl-carousel .item .img {
+        width: 100%;
+        height: 28vw;
+        padding: 0;
+        background-color: none;
+        margin: 0;
+    }
+
+    .pageContent .left .h3 {
+        border: none;
+    }
+
+    .owl-carousel .item .img img {
+        width: 100%;
+        margin: 0;
+        height: 100%;
+    }
+
+    .owl-carousel .text {
+        position: absolute;
+        bottom: 3.5vw;
+    }
+
+    .owl-carousel .h4,
+    .owl-carousel .p {
+        margin: 0 0 0 1.6vw;
+        font-size: 2.04vw;
+        line-height: 1.5;
+    }
+
+    .owl-carousel .text .p {
+        padding: 0 3vw 0 0;
+    }
+
+    .owl-carousel .item {
+        width: 93%;
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        width: 7.8vw;
+        height: 7.8vw;
+        top: 44%;
+        right: -2.7vw;
+        opacity: 1 !important;
+        background-image: url(../img/arrowR.png);
+        background-size: 25%;
+        background-position: 53% center;
+        background-color: #00A7B9;
+        border-radius: 50%;
+    }
+
+    .pageContent .left .slider {
+        margin: 0;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        transform: rotate(180deg);
+        left: -5.3vw;
+    }
+
+    .left .seeAll {
+        font-size: 2.04vw;
+        padding: 0;
+        color: white;
+        width: 8%;
+        text-decoration: none;
+        position: relative;
+        left: 88%;
+        margin: 0 0 5vw;
+    }
+
+    .owl-carousel {
+        display: block;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .content .transition .arr {
+        width: 0.8vw;
+        margin: 0 0 0.3vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .pageContent .left .text {
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .pageContent .left .text .img {
+        width: 11.7vw;
+        height: 8vw;
+        margin: 0 5vw 0 0;
+    }
+
+    .pageContent .left .text .txt {
+        font-size: 3.2vw;
+    }
+
+    .pageContent .left .watchBtn {
+        width: 38.1vw;
+        height: 8vw;
+        border-radius: 6.3vw;
+        font-size: 4.1vw;
+        margin: 5vw 0 2vw;
+    }
+
+    .pageContent .left .icon {
+        width: 8.5vw;
+        height: 8.5vw;
+        margin: 0 3vw 0 0;
+    }
+
+    .pageContent .left .text div:last-of-type {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 768px) {
+    .content .tittleBox .h3 {
+        font-size: 5.3vw;
+    }
+
+    .pageContent .right .mobileStyle .p {
+        font-size: 3vw;
+    }
+
+    .pageContent .right .teg {
+        width: 95%;
+        font-size: 2.4vw;
+    }
+
+    .pageContent .right .teg .tegText {
+        width: 17.7vw;
+    }
+
+    .pageContent .right .mobileApp,
+    .pageContent .right .mobileApp span {
+        font-size: 2.8vw;
+    }
+
+    .pageContent .left #iconBox {
+        margin: 3vw 0;
+    }
+
+    .pageContent .left .h1 span {
+        font-size: 4.6vw;
+    }
+
+    .pageContent .left .h3 span,
+    .pageContent .left .h3 {
+        font-size: 4vw;
+    }
+
+    .owl-carousel .h4,
+    .owl-carousel .p {
+        font-size: 3vw;
+        letter-spacing: 1px;
+    }
+
+    .left .seeAll {
+        font-size: 2.4vw;
+        width: 9%;
+    }
+
+    .pageContent .left .h2 {
+        font-size: 4vw;
+    }
+
+}

@@ -1,0 +1,1354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+header .menu .orangeHover {
+    color: #F36F21;
+    border-bottom: 2px solid #F36F21;
+}
+
+header .menu .orangeHover a {
+    color: #F36F21;
+}
+
+body {
+    background-size: 74% 98%;
+    animation: wave 8s linear infinite;
+}
+
+.content {
+    max-width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+
+.content .transition {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1D1D1D;
+    color: #F36F21;
+    font-family: FuturaLT_Book;
+    padding: 0 0 28px 125px;
+    font-size: 21px;
+}
+
+.content .transition .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #F36F21;
+    margin: 0 0 6px;
+}
+
+.content .transition .transText {
+    color: #F36F21;
+    font-family: FuturaLT_Book;
+    font-size: 21px;
+    margin: 0 20px 6px;
+    border-bottom: 1px solid transparent;
+}
+
+.content .transition .transText:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #F36F21;
+}
+
+.content .transition .arr {
+    width: 6px;
+    margin: 0 0 6px;
+}
+
+.transText:last-of-type {
+    font-family: FuturaLT_Bold !important;
+}
+
+.content .mainPoster {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url(../img/gomora.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 30px 175px;
+}
+
+.content .mainPoster .pinkBtn {
+    font-family: FuturaMedium;
+    font-weight: normal;
+    width: 235px;
+    height: 40px;
+    background-color: #EC008C;
+    border: none;
+    border-radius: 1.7vw;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+}
+
+.content .mainPoster .pinkBtn:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.content .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1D1D1D;
+    padding: 65px 44px 100px 67px;
+}
+
+.content .h3 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.content .tittleBox {
+    width: 34%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #F36F21;
+    border-bottom: 1px solid #F36F21;
+}
+
+.h4 {
+    font-size: 0.68vw;
+    color: white;
+    margin: 0;
+}
+
+.pageContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.pageContent .right {
+    display: flex;
+    flex-direction: column;
+    padding: 0 75px;
+    width: 412px;
+}
+
+.pageContent .right .imgGomora {
+    width: 260px;
+    height: 213px;
+    background-image: url(../img/Intersection43.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pageContent .right .textTittle {
+    font-size: 14px;
+    font-weight: 100;
+    margin: 19px 0 23px;
+}
+
+/*
+.pageContent .right .tittle {
+    font-family: FuturaPT_Book;
+    color: white;
+    font-weight: normal;
+    font-size: 21px;
+    margin: 3vw 0 0.9vw;
+}
+*/
+
+/*
+.pageContent .right .tittle span {
+    font-family: FuturaMedium;
+    font-weight: normal;
+    color: #F36F21;
+}
+*/
+
+.pageContent .networks {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    align-items: center;
+    margin: 15px 0 30px;
+}
+
+.pageContent .networks .icon {
+    width: 44px;
+    height: 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-color: #F36F21;
+}
+
+.pageContent .networks .face {
+    background-image: url(../img/face.png);
+    background-size: 60%;
+    margin: 0 15px 0 0;
+}
+
+.pageContent .networks .twit {
+    background-image: url(../img/twit.png);
+    background-size: 61%;
+    margin: 0 15px 0 0;
+}
+
+.pageContent .networks .whats {
+    background-image: url(../img/whatsUp.png);
+    background-size: 53%;
+}
+
+.pageContent .right .moodBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pageContent .right .moodBox .moodTittleBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 18px;
+}
+
+.pageContent .right .moodBox .moodTittleBox .line {
+    width: 53px;
+    border-bottom: 1px solid #F36F21;
+    margin: 0 14px;
+}
+
+.pageContent .right .moodBox .h3 {
+    font-size: 17px;
+    color: white;
+    font-family: FuturaLT_Book !important;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.pageContent .right .moodBlock {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pageContent .right .moodBlock .categories {
+    border: 1px solid #F36F21;
+    border-radius: 15px;
+    margin: 0 0 12px;
+    width: 73%;
+    height: 83px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageContent .right .moodBlock .categories p {
+    color: #F36F21;
+    font-size: 13px;
+    font-family: AvenirLTStd-Black;
+    margin: 0;
+}
+
+.pageContent .left .app {
+    font-size: 15px;
+    font-family: AvenirLTStd-Light_2;
+    color: white;
+    font-weight: 100;
+    text-align: right;
+    margin: 38px 0 28px;
+}
+
+.pageContent .left .app span {
+    font-size: 15px;
+    font-family: AEH;
+    color: #4EA7FF;
+    border-bottom: 1px solid #4EA7FF;
+    padding: 0 0 5px;
+    margin: 0 0 0 7px;
+}
+
+.pageContent .left {
+    display: flex;
+    flex-direction: column;
+    width: 57.8%;
+}
+
+.pageContent .left .placat {
+    width: 97%;
+    height: 17.7vw;
+    background-position: center;
+    background-image: url(../img/Image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1.7vw 0;
+}
+
+.pageContent .left .text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin: 38px 0 0;
+}
+
+.pageContent .left .text div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageContent .left .text .txt {
+    margin: 0;
+    font-family: AEH;
+}
+
+.pageContent .left .text .txt span {
+    border-left: 1px solid white;
+    padding: 0 5px;
+    font-family: AvenirLTStd-Light_2;
+}
+
+.pageContent .left .text .txt span:first-of-type {
+    margin: 0 0 0 8px;
+}
+
+.pageContent .left .text .img {
+    width: 65px;
+    height: 38px;
+    background-position: center;
+    background-image: url(../img/Image13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 20px 0 0;
+}
+
+.pageContent .left .watchBtn {
+    width: 167px;
+    height: 40px;
+    color: #F36F21;
+    border: 1px solid #F36F21;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: AvenirLTStd-Book;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 0 0;
+}
+
+.pageContent .left .imgCont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pageContent .left .imgContMob {
+    display: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pageContent .left .imgBox {
+    margin: 0;
+    width: 100%;
+    height: 344px;
+    background-color: #F36F21;
+    /*    overflow: hidden;*/
+}
+
+.pageContent .left .imgCont .imgBox {
+    width: 100%;
+    height: 344px;
+    background-color: #F36F21;
+    margin: 65px 0 0;
+    /*    overflow: hidden;*/
+}
+
+.pageContent .left .imgCont .imgMob:first-of-type .imgBox {
+    margin: 0;
+}
+
+.pageContent .left .imgBox .img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 4px;
+    bottom: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.item .img img:hover {
+    transform: scale(1.1);
+}
+
+.right .img {
+    overflow: hidden;
+}
+
+.right .img .imgGomora {
+    transition: all .5s;
+}
+
+.right .img .imgGomora:hover {
+    transform: scale(1.1);
+}
+
+.pageContent .left .imgBox .img1,
+.pageContent .left .imgBox .img2,
+.pageContent .left .imgBox .img3,
+.pageContent .left .imgBox .img4 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.pageContent .left .imgBox .img1 {
+    background-image: url(../img/Image1.png);
+}
+
+.pageContent .left .imgBox .img1:hover,
+.pageContent .left .imgBox .img2:hover,
+.pageContent .left .imgBox .img3:hover,
+.pageContent .left .imgBox .img4:hover {
+    transform: scale(1.1);
+}
+
+.pageContent .left .imgBox .img2 {
+    background-image: url(../img/maxresdefault.png);
+}
+
+.pageContent .left .imgBox .img3 {
+    background-image: url(../img/BB12GipC.png);
+}
+
+.pageContent .left .imgBox .img4 {
+    background-image: url(../img/gomora-1.png);
+}
+
+.pageContent .left .imgBoxMob,
+.pageContent .left .imgMob {
+    position: relative;
+}
+
+.pageContent .left .h2 {
+    font-size: 25px;
+    font-family: FuturaMedium;
+    font-weight: normal;
+    margin: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.pageContent .left .p {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.pageContent .left .moodTittleBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pageContent .left .moodTittleBox .line {
+    width: 53px;
+    border-bottom: 1px solid #F36F21;
+    margin: 53px 14px 13px 0;
+}
+
+.pageContent .left .moodTittleBox .h3 {
+    font-size: 21px;
+    color: white;
+    font-family: FuturaLT_Book !important;
+    font-weight: normal;
+    padding: 0;
+    margin: 54px 0 18px;
+}
+
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    display: none;
+}
+
+.owl-carousel .owl-nav button.owl-next:focus,
+.owl-carousel .owl-nav button.owl-prev:focus {
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-next span,
+.owl-carousel .owl-nav button.owl-prev span {
+    display: none;
+}
+
+.owl-carousel .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 19px;
+}
+
+.owl-carousel .item {
+    background-color: #F36F21;
+}
+
+.owl-carousel .item .img {
+    position: relative;
+    bottom: 4px;
+    left: 4px;
+    /*    overflow: hidden;*/
+}
+
+.owl-carousel .item .img .imgScale {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.owl-carousel .item .img .imgScale img:hover {
+    transform: scale(1.1);
+}
+
+.owl-carousel .owl-item img {
+    transition: all .5s;
+    border: none;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    padding: 10px 20px 0 0;
+}
+
+.owl-carousel {
+    margin: 0 0 52px;
+}
+
+.pageContent .left .networks {
+    color: #F36F21;
+    font-size: 17px;
+}
+
+
+.pageContent .mobile,
+.mobileImg {
+    display: none;
+}
+
+.mobileView {
+    display: flex;
+    flex-direction: column;
+}
+
+@media all and (max-width:1920px) {
+    body {
+        background-size: 100% 98%;
+    }
+
+    .content {
+        max-width: 62vw;
+    }
+
+    .content .transition {
+        padding: 0 0 1.46vw 6.5vw;
+        font-size: 1.1vw;
+    }
+
+    .content .transition .circle {
+        width: 0.8vw;
+        height: 0.8vw;
+        margin: 0 0 0.3vw;
+    }
+
+    .content .transition .transText {
+        font-size: 1.1vw;
+        margin: 0 1.05vw 0.3vw;
+    }
+
+    .content .transition .arr {
+        width: 0.31vw;
+        margin: 0 0 0.3vw;
+    }
+
+    .content .mainPoster {
+        width: 100%;
+        height: 12.5vw;
+        padding: 0 0 1.6vw 9.12vw;
+    }
+
+    .content .mainPoster .pinkBtn {
+        width: 12.25vw;
+        height: 2.1vw;
+        box-shadow: 0.53vw 0.53vw 0.53vw rgba(0, 0, 0, 0.5);
+        font-size: 0.73vw;
+    }
+
+
+    .content .main {
+        padding: 3.4vw 2.3vw 5.21vw 3.5vw;
+    }
+
+    .content .h3 {
+        font-size: 2.5vw;
+    }
+
+    .content .tittleBox {
+        width: 34%;
+    }
+
+    .h4 {
+        font-size: 0.68vw;
+    }
+
+    .pageContent .right {
+        padding: 0 3.9vw;
+        width: 21.5vw;
+    }
+
+    .pageContent .right .imgGomora {
+        width: 100%;
+        height: 11.1vw;
+    }
+
+    .pageContent .right .textTittle {
+        font-size: 0.73vw;
+        font-weight: 100;
+        margin: 1vw 0 1.2vw;
+    }
+
+    .pageContent .right .tittle {
+        font-size: 1.1vw;
+        margin: 3vw 0 0.9vw;
+    }
+
+    .pageContent .networks {
+        margin: 0.8vw 0 1.6vw;
+    }
+
+    .pageContent .networks .icon {
+        width: 2.3vw;
+        height: 2.3vw;
+    }
+
+    .pageContent .networks .face {
+        background-size: 60%;
+        margin: 0 0.78vw 0 0;
+    }
+
+    .pageContent .networks .twit {
+        margin: 0 0.78vw 0 0;
+    }
+
+    .pageContent .networks .whats {
+        background-size: 53%;
+    }
+
+    .pageContent .right .moodBox .moodTittleBox {
+        margin: 0 0 0.94vw;
+    }
+
+    .pageContent .right .contentSearch {
+        width: 10.9vw;
+        height: 2.05vw;
+        font-size: 0.6vw;
+        border-radius: 1.3vw;
+        background-position: 90%;
+        background-size: 7%;
+        margin-top: 1.5vw;
+        padding: 0 1.4vw;
+    }
+
+    .pageContent .right .moodBox .moodTittleBox .line {
+        width: 2.8vw;
+        margin: 0 0.73vw 0 0;
+    }
+
+    .pageContent .right .moodBox .h3 {
+        font-size: 0.9vw;
+    }
+
+    .pageContent .right .moodBlock .categories {
+        border-radius: 0.8vw;
+        margin: 0 0 0.64vw;
+        height: 4.4vw;
+    }
+
+    .pageContent .right .moodBlock .categories p {
+        font-size: 0.7vw;
+    }
+
+    .pageContent .left .app {
+        font-size: 0.78vw;
+        margin: 2vw 0 1.46vw;
+    }
+
+    .pageContent .left .app span {
+        font-size: 0.78vw;
+    }
+
+
+    .pageContent .left {
+        width: 57.8%;
+    }
+
+    .pageContent .left .placat {
+        width: 97%;
+        height: 17.7vw;
+        margin: 1.7vw 0;
+    }
+
+    .pageContent .left .text {
+        font-size: 0.84vw;
+        margin: 2vw 0 0;
+    }
+
+    .pageContent .left .text .txt span {
+        padding: 0 0.27vw;
+    }
+
+    .pageContent .left .text .txt span:first-of-type {
+        margin: 0 0 0 0.42vw;
+    }
+
+    .pageContent .left .text .img {
+        width: 3.39vw;
+        height: 2vw;
+        margin: 0 1.05vw 0 0;
+    }
+
+    .pageContent .left .watchBtn {
+        width: 8.8vw;
+        height: 2.1vw;
+        border-radius: 1.3vw;
+        font-size: 0.8vw;
+        padding: 0.1vw 0 0;
+    }
+
+    .pageContent .left .imgBox {
+        height: 17.9vw;
+        margin: 0;
+    }
+
+    .pageContent .left .imgCont .imgBox {
+        height: 17.9vw;
+        margin: 3.4vw 0 0;
+    }
+
+    .pageContent .left .imgBox .img {
+        left: 0.21vw;
+        bottom: 0.21vw;
+    }
+
+    .pageContent .left .h2 {
+        font-size: 1.3vw;
+    }
+
+    .pageContent .left .p {
+        font-size: 0.84vw;
+        margin: 0 0 0.5vw;
+    }
+
+    .pageContent .left .moodTittleBox .line {
+        width: 2.8vw;
+        margin: 2.8vw 0.73vw 0.7vw 0;
+    }
+
+    .pageContent .left .moodTittleBox .h3 {
+        font-size: 1.1vw;
+        margin: 2.8vw 0 0.94vw;
+    }
+
+    .owl-carousel .text {
+        bottom: 1vw;
+    }
+
+    .owl-carousel .item .img {
+        bottom: 0.21vw;
+        left: 0.21vw;
+    }
+
+    .owl-carousel.owl-drag .owl-item {
+        padding: 0.5vw 1vw 0 0;
+    }
+
+    .owl-carousel {
+        margin: 0 0 2.7vw;
+    }
+
+    .pageContent .left .networks {
+        font-size: 0.9vw;
+    }
+
+    .pageContent .left .networks .netText {
+        margin: 0 0.78vw 0 0;
+    }
+}
+
+@media all and (max-width:1080px) {
+
+    .pageContent .right .moodBox .moodTittleBox,
+    .pageContent .right .moodBlock,
+    .pageContent .right .orangeTeg,
+    .pageContent .right .tittle,
+    .pageContent .mobileStyle .app,
+    .pageContent .left .text,
+    .content .mainPoster {
+        display: none;
+    }
+
+    .mobileImg {
+        display: block;
+    }
+
+    .content .transition .arr {
+        width: 0.8vw;
+        margin: 0 0 0.3vw;
+    }
+
+    .content .search {
+        background-color: transparent;
+        padding: 6.6vw 0 8.8vw;
+    }
+
+    .content {
+        max-width: 100vw;
+    }
+
+    .content .transition {
+        background-color: transparent;
+        padding: 0 8.4vw;
+
+    }
+
+    .content .transition .transText {
+        font-size: 3vw;
+        margin: 0 1.05vw 0.3vw;
+    }
+
+    .content .transition .circle {
+        width: 2vw;
+        height: 2vw;
+        margin: 0 3.6vw 0.3vw 0;
+    }
+
+    .content .main {
+        padding: 7.1vw 8.4vw;
+        background-color: transparent;
+    }
+
+    .content .tittleBox {
+        border: none;
+    }
+
+    .content .tittleBox .h3 {
+        display: none;
+    }
+
+    .pageContent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .pageContent .right .teg {
+        background-color: transparent;
+        flex-direction: row;
+        color: #F36F21;
+        font-size: 1.8vw;
+        width: 80%;
+        height: auto;
+        padding: 3.15vw 0 0;
+
+    }
+
+    .pageContent .right .imgGomora {
+        width: 30.3vw;
+        height: 21.3vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .pageContent .right .textTittle {
+        font-size: 2.6vw;
+        width: 100%;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .pageContent .right {
+        flex-direction: row;
+        padding: 0 0 4.2vw;
+    }
+
+    .pageContent .left .h1 {
+        font-size: 3.9vw;
+        line-height: 7.04vw;
+        margin: 5.4vw 0 3.4vw;
+    }
+
+    .pageContent .left .h1 span {
+        font-size: 3.9vw;
+        border-right: 0.2vw solid white;
+        margin: 0 1.68vw 0 0;
+    }
+
+
+    .pageContent .left,
+    .pageContent .right {
+        width: 100%;
+    }
+
+    .mobileView {
+        width: 50%;
+    }
+
+    .pageContent .left .placat {
+        width: 98%;
+        height: 31.4vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 0 2.2vw;
+    }
+
+    .pageContent .left .text .txt {
+        font-size: 2.2vw;
+    }
+
+    .pageContent .text {
+        justify-content: space-between;
+        flex-direction: column;
+        border-top: 0.2vw solid #F36F21;
+        margin: 5vw 0 0;
+    }
+
+    .pageContent .text .img {
+        width: 8.7vw;
+        height: 5vw;
+        background-size: cover;
+        margin: 0 2vw 0 0;
+        background-position: center;
+        background-image: url(../img/Image13.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pageContent .text div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 2vw 0;
+    }
+
+    .pageContent .text div .txt {
+        margin: 0;
+        font-size: 1.9vw;
+    }
+
+    .pageContent .text .txt span {
+        border-left: 1px solid white;
+        padding: 0 0.5vw;
+        font-family: AvenirLTStd-Light_2;
+        font-weight: 100;
+    }
+
+    .pageContent .left .h3 span,
+    .pageContent .left .h3 {
+        font-size: 3.5vw;
+        background-color: transparent;
+        padding: 0;
+        margin: 4.5vw 0 3.1vw;
+    }
+
+    .pageContent .left .h2 {
+        margin: 2vw 0 0.4vw 0;
+        font-size: 3.4vw;
+        color: #F36F21;
+        position: relative;
+        bottom: 0;
+        left: 0px;
+        font-family: Futura_Bold;
+    }
+
+    .pageContent .left .imgBox .img {
+        left: 0.5vw;
+        bottom: 0.5vw;
+    }
+
+    .owl-carousel .item .img {
+        bottom: 0.5vw;
+        left: 0.5vw;
+    }
+
+    .pageContent .left .p {
+        font-size: 1.5vw;
+        margin: 0 0 0.5vw;
+    }
+
+    .pageContent .left .slider {
+        border: none;
+    }
+
+    .content .tittle .line {
+        display: none;
+    }
+
+    .content .tittleBox .h3 {
+        font-size: 4.45vw;
+        background-color: transparent;
+    }
+
+    .pageContent .mobileStyle .h3 {
+        font-size: 4.45vw;
+        font-weight: bolder;
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pageContent .right .mobileApp,
+    .pageContent .right .mobileApp span {
+        display: flex;
+        font-size: 1.1vw;
+    }
+
+    .pageContent .right .mobileApp {
+        margin: 3vw 0 0;
+    }
+
+    .pageContent .watchBtn {
+        width: 24vw;
+        height: 5.6vw;
+        color: #F36F21;
+        border: 1px solid #F36F21;
+        border-radius: 6.3vw;
+        font-size: 1.9vw;
+        font-family: AvenirLTStd-Book;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0.1vw 0 0;
+        margin: 1.4vw 0 0;
+    }
+
+    .pageContent .left .app {
+        font-size: 1.76vw;
+        margin: 1vw 0 3.7vw;
+        text-align: left;
+    }
+
+    .pageContent .left .app span {
+        font-size: 1.76vw;
+    }
+
+    .pageContent .networks {
+        flex-wrap: wrap;
+    }
+
+    .pageContent .networks .netText {
+        width: 100%;
+        margin-top: 2vw;
+        font-size: 2vw;
+        font-family: AvenirLTStd-Book;
+    }
+
+    .pageContent .networks .icon {
+        width: 6vw;
+        height: 6vw;
+        margin: 0 1.5vw 0 0;
+    }
+
+    .pageContent .left .imgCont .imgMob:first-of-type .imgBox {
+        margin: 3.4vw 0 0;
+    }
+
+    .content .tittle .seeAll {
+        font-size: 2.04vw;
+        margin: 0 0 1.2vw;
+    }
+
+    .content .tittle {
+        padding: 0 0 2.24vw;
+    }
+
+    .pageContent .left .moodTittleBox .h3 {
+        font-size: 2.7vw;
+    }
+
+    .pageContent .left .moodTittleBox .line {
+        width: 8vw;
+        margin: 2.8vw 1.2vw 0.7vw 0;
+    }
+
+    .pageContent .mobileView .h3 {
+        font-family: Futura_Bold;
+        font-size: 4.45vw;
+        color: #F36F21;
+    }
+
+    .pageContent .left .imgCont {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .pageContent .left .imgCont {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .pageContent .left .imgCont .imgMob {
+        width: 48%;
+        margin: 0 2.9vw 0 0;
+    }
+
+    .pageContent .left .imgCont .imgMob:nth-child(2n+2) {
+        margin: 0;
+    }
+
+    .pageContent .left .imgCont div .imgBox {
+        width: 100%;
+        height: 25.9vw;
+        margin: 3.4vw 0 0;
+    }
+
+
+    .owl-carousel {
+        margin: 3vw 0 8vw;
+        width: 102%;
+        height: 22vw;
+    }
+
+    .pageContent .left .imgBox {
+        width: 100%;
+        height: 33.9vw;
+    }
+
+    .pageContent .left .networks,
+    .pageContent .right .contentSearch,
+    .pageContent .right .app,
+    .pageContent .networks,
+    .pageContent .right .moodBox {
+        display: none;
+    }
+
+    .owl-carousel .item .img {
+        width: 100%;
+        height: 23.6vw;
+        padding: 0;
+        background-color: none;
+        border-radius: 2.5vw;
+        margin: 0;
+    }
+
+    .owl-carousel .item .img img {
+        width: 100%;
+        margin: 0;
+        height: 100%;
+    }
+
+    .owl-carousel .text {
+        position: absolute;
+        bottom: 3.5vw;
+    }
+
+    .owl-carousel .h4,
+    .owl-carousel .p {
+        margin: 0 0 0 1.6vw;
+        font-size: 2.04vw;
+        line-height: 1.5;
+    }
+
+    .owl-carousel .text .p {
+        padding: 0 3vw 0 0;
+    }
+
+    .owl-carousel .item {
+        width: 93%;
+    }
+
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        width: 7.8vw;
+        height: 7.8vw;
+        top: 35%;
+        right: -2.7vw;
+        opacity: 1 !important;
+        background-image: url(../img/arrowR.png);
+        background-size: 25%;
+        background-position: 53% center;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #00A7B9;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+    }
+
+    .pageContent .left .slider {
+        margin: 0 0 8vw 0vw;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        left: -5vw;
+        transform: rotate(180deg);
+    }
+
+    .owl-carousel {
+        display: block;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .pageContent .mobile {
+        display: flex;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobileView:first-of-type {
+        width: 45%;
+    }
+
+    .mobileView {
+        width: 55%;
+    }
+
+    .pageContent .mobileView .h3 {
+        font-size: 5.3vw;
+    }
+
+    .pageContent .right .textTittle {
+        font-size: 3vw;
+    }
+
+    .pageContent .text .img {
+        width: 11.7vw;
+        height: 7vw;
+    }
+
+    .pageContent .text div .txt {
+        margin: 0;
+        width: 64%;
+        /*        font-size: 2.3vw;*/
+        font-size: 3.2vw;
+    }
+
+    .pageContent .text .txt span {
+        border-left: none;
+        /*        padding: 0 0 0 1.5vw;*/
+        font-family: AvenirLTStd-Light_2;
+        font-weight: 100;
+    }
+
+    .pageContent .text .txt span:first-of-type {
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        padding: 0 1.5vw;
+    }
+
+    .pageContent .text .txt span:last-of-type {
+        border-left: 1px solid white;
+        padding: 0 0 0 1.5vw;
+        font-family: AvenirLTStd-Light_2;
+        font-weight: 100;
+    }
+
+    .pageContent .left .app,
+    .pageContent .left .app span {
+        font-size: 2.8vw;
+    }
+
+    .pageContent .watchBtn {
+        width: 38.1vw;
+        height: 8vw;
+        border-radius: 6.3vw;
+        font-size: 4.1vw;
+        margin: 5vw 0 2vw;
+    }
+
+    .pageContent .networks .netText {
+        font-size: 3vw;
+    }
+
+    .pageContent .networks .icon {
+        width: 8.5vw;
+        height: 8.5vw;
+        margin: 0 3vw 0 0;
+    }
+
+    .pageContent .left .h2 {
+        font-size: 4vw;
+    }
+
+    .pageContent .left .moodTittleBox .h3 {
+        font-size: 3vw;
+    }
+
+}
